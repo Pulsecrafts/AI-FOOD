@@ -10243,7 +10243,33 @@ textarea.form-control {
       background-color: black;
       color: black;
     }
-    .topic p{
-      background-color: black;
+    .button-container {
+      display: flex;
+      justify-content: center;
+	    align-content: center;
+	    justify-items: stretch;
+	    align-items: stretch;
+      margin-top: 10px;
     }
+    .button-container .button1{
+      color: white;
+      background-color: black;
+      opacity: .6;
+      border-radius: 10px;
+      border-color: #ffdf00;
+      margin-right: 6px;
+      cursor: pointer;
+      
+    }
+    .button-container .button2{
+      color: white;
+      background-color: black;
+      opacity: .6;
+      border-radius: 10px;
+      border-color: #ffdf00;
+      margin-left: 6px;
+      cursor: pointer;
+    }
+   
+  
     
